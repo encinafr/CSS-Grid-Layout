@@ -6,7 +6,10 @@ body {
     /*grid-template-columns: 25% 200px 25%;*/
     /*grid-template-rows: 300px 150px;*/
     /*grid-template: filas / columnas ;*/
-    grid-template: 300px 100px 100px / 50% 200px 100px;
+    /*fr*/
+    /*grid-template: 300px 100px 100px / repeat(4,1fr);*/
+    /*grid-template: 300px 100px 100px / repeat(4,minmax(200px,1fr));*/
+    grid-template: 300px 100px 100px / minmax(200px,1fr) 1fr 1fr 1fr;
     grid-column-gap: 30px;
     grid-row-gap: 50px;
     /*grid-gap: filas columnas;*/
