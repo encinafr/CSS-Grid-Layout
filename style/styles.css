@@ -4,9 +4,10 @@ body {
 .container {
   display: grid;
   grid-template-columns: [inicio] 1fr [linea2] 1fr [linea3] 1fr [destacado-end] 1fr [linea5] 1fr [destacado2-end] 1fr [linea7] 1fr [final];
-  grid-template-rows: [inicio] 200px [inicio2] 200px [final];
+  /*grid-template-rows: [inicio] 200px [inicio2] 200px [final];*/
   grid-gap: 5px;
   height: 100vh;
+  grid-auto-rows: 50 px 100px
 }
 .item {
   background: lightblue;
